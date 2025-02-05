@@ -1,0 +1,45 @@
+.to-do-list {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+input {
+  width: 550px;
+  padding: 10px;
+  border: 2px solid rgb(40, 119, 255);
+  border-radius: 10px;
+}
+
+button {
+  margin: 3px;
+  padding: 10px;
+  background-color: rgb(40, 119, 255);
+  border: 1px solid rgb(40, 119, 255);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.delete-button {
+  margin-left: 20px !important;
+}
+
+
+
+
+button:hover {
+  background-color: rgb(6, 90, 234);
+  
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
